@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectBasicSetup", "ProjectBasicSetup\ProjectBasicSetup.csproj", "{BDFAB34A-29D0-401E-AD81-83C22005311C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingImplementation", "LoggingImplementation\LoggingImplementation.csproj", "{B3D72DA7-81AD-431B-A6A4-D16707370595}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BDFAB34A-29D0-401E-AD81-83C22005311C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDFAB34A-29D0-401E-AD81-83C22005311C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDFAB34A-29D0-401E-AD81-83C22005311C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3D72DA7-81AD-431B-A6A4-D16707370595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D72DA7-81AD-431B-A6A4-D16707370595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D72DA7-81AD-431B-A6A4-D16707370595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D72DA7-81AD-431B-A6A4-D16707370595}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
