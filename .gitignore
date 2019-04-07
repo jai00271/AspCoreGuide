@@ -261,3 +261,5 @@ __pycache__/
 *.pyc
 /AspCoreGuide/BuiltInMiddleware/internallog.txt
 /AspCoreGuide/logs/2019-04-07_logfile.txt
+/AspCoreGuide/EFImplementation.Repository/Migrations/20190407100247_CreateDatabase.Designer.cs
+/AspCoreGuide/EFImplementation.Repository/Migrations/20190407100247_CreateDatabase.cs

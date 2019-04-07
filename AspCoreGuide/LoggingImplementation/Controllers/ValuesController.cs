@@ -9,7 +9,10 @@
     public class ValuesController : ControllerBase
     {
         private readonly ILogger<ValuesController> _logger;
-
+        /// <summary>
+        /// Inject in built logger and use it for logging. You can monitor the logs while running in kestrel mode.
+        /// </summary>
+        /// <param name="logger"></param>
         public ValuesController(ILogger<ValuesController> logger)
         {
             _logger = logger;
