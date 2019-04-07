@@ -1,4 +1,4 @@
-﻿namespace ProjectBasicSetup.Controllers
+﻿namespace EFImplementation.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
     using System.Collections.Generic;

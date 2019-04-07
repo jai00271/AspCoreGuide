@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-
-namespace LoggingImplementation.Controllers
+﻿namespace LoggingImplementation.Controllers
 {
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.Extensions.Logging;
+    using System.Collections.Generic;
+
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
@@ -17,12 +14,13 @@ namespace LoggingImplementation.Controllers
         {
             _logger = logger;
         }
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
             _logger.LogInformation("This is logging implementation");
-            
+
             return new string[] { "value1", "value2" };
         }
 

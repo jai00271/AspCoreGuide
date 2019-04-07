@@ -1,4 +1,4 @@
-﻿namespace ProjectBasicSetup
+﻿namespace EFImplementation
 {
     using Microsoft.AspNetCore;
     using Microsoft.AspNetCore.Hosting;
