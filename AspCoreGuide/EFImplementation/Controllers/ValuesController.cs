@@ -1,5 +1,7 @@
 ﻿namespace EFImplementation.Controllers
 {
+    using EFImplementation.Repository.Contracts;
+    using EFImplementation.Repository.Models;
     using Microsoft.AspNetCore.Mvc;
     using System.Collections.Generic;
 
@@ -7,10 +9,20 @@
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private IRepositoryWrapper _repoWrapper;
+
+        public ValuesController(IRepositoryWrapper repositoryWrapper)
+        {
+            _repoWrapper = repositoryWrapper;
+        }
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            var domesticAccounts = _repoWrapper.Account.FindByCondition(x => x.Equals("Domestic"));
+            var owners = _repoWrapper.Owner.FindAll();
+
             return new string[] { "value1", "value2" };
         }
 
@@ -23,8 +35,10 @@
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Account account)
         {
+            _repoWrapper.Account.Create(account);
+            _repoWrapper.Account.Save();
         }
 
         // PUT api/values/5
