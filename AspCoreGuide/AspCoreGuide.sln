@@ -7,23 +7,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicProjectSetup", "Projec
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingImplementation", "LoggingImplementation\LoggingImplementation.csproj", "{B3D72DA7-81AD-431B-A6A4-D16707370595}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFImplementation.API", "EFImplementation\EFImplementation.API.csproj", "{37262698-A82F-45BD-9382-66A9C8A46518}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFImplementation.API", "EFImplementation\EFImplementation.API.csproj", "{37262698-A82F-45BD-9382-66A9C8A46518}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EFImplementation", "EFImplementation", "{6167721F-B37C-4D3C-94D7-03BCF4E49AE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFImplementation.Repository", "EFImplementation.Repository\EFImplementation.Repository.csproj", "{EA1F4E6D-65FC-45B3-8FF0-AA929D166B61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFImplementation.Repository", "EFImplementation.Repository\EFImplementation.Repository.csproj", "{EA1F4E6D-65FC-45B3-8FF0-AA929D166B61}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Errorhandling", "Errorhandling", "{29042D05-FB5C-4927-92C5-67955325CD46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuiltInMiddleware", "BuiltInMiddleware\BuiltInMiddleware.csproj", "{5342C271-659F-4053-A3DC-3EE4A0B387E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuiltInMiddleware", "BuiltInMiddleware\BuiltInMiddleware.csproj", "{5342C271-659F-4053-A3DC-3EE4A0B387E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{EAF88D83-5D9E-4B02-9239-4B8C523B207B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "LoggerService\LoggerService.csproj", "{EAF88D83-5D9E-4B02-9239-4B8C523B207B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomLogImplementation", "CustomLogImplementation", "{FA2A323E-2CFE-4231-820D-4E23D32D3B90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomMiddleware", "CustomMiddleware\CustomMiddleware.csproj", "{F055976E-64D8-4B0C-BE0F-A6101AB0E106}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomMiddleware", "CustomMiddleware\CustomMiddleware.csproj", "{F055976E-64D8-4B0C-BE0F-A6101AB0E106}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerImplementation", "SwaggerImplementation\SwaggerImplementation.csproj", "{864E75C6-3BBB-4E39-B8E5-8F1FA4F12CB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerImplementation", "SwaggerImplementation\SwaggerImplementation.csproj", "{864E75C6-3BBB-4E39-B8E5-8F1FA4F12CB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XUnitTest", "XUnitTest", "{4EEFD564-48EF-43C2-976A-15886139C2C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learn.UnitTest", "..\..\WebAPIWithXUnit\Learn.UnitTest\Learn.UnitTest.csproj", "{0C548D7B-9C3F-4E4D-B4CD-9330CC674ABB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learn.Web", "..\..\WebAPIWithXUnit\Learn.Web\Learn.Web.csproj", "{792FB302-CFF2-4C36-9912-29FCBDF1C331}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,14 @@ Global
 		{864E75C6-3BBB-4E39-B8E5-8F1FA4F12CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{864E75C6-3BBB-4E39-B8E5-8F1FA4F12CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{864E75C6-3BBB-4E39-B8E5-8F1FA4F12CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C548D7B-9C3F-4E4D-B4CD-9330CC674ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C548D7B-9C3F-4E4D-B4CD-9330CC674ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C548D7B-9C3F-4E4D-B4CD-9330CC674ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C548D7B-9C3F-4E4D-B4CD-9330CC674ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{792FB302-CFF2-4C36-9912-29FCBDF1C331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{792FB302-CFF2-4C36-9912-29FCBDF1C331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{792FB302-CFF2-4C36-9912-29FCBDF1C331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{792FB302-CFF2-4C36-9912-29FCBDF1C331}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +88,8 @@ Global
 		{EAF88D83-5D9E-4B02-9239-4B8C523B207B} = {FA2A323E-2CFE-4231-820D-4E23D32D3B90}
 		{FA2A323E-2CFE-4231-820D-4E23D32D3B90} = {29042D05-FB5C-4927-92C5-67955325CD46}
 		{F055976E-64D8-4B0C-BE0F-A6101AB0E106} = {29042D05-FB5C-4927-92C5-67955325CD46}
+		{0C548D7B-9C3F-4E4D-B4CD-9330CC674ABB} = {4EEFD564-48EF-43C2-976A-15886139C2C6}
+		{792FB302-CFF2-4C36-9912-29FCBDF1C331} = {4EEFD564-48EF-43C2-976A-15886139C2C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6117E99C-7612-4217-9A47-2CF874FD6516}
