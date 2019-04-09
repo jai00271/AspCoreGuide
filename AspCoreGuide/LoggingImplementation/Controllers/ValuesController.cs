@@ -31,6 +31,8 @@
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
+            _logger.LogCritical("This is logging implementation");
+
             return "value";
         }
 
@@ -38,18 +40,24 @@
         [HttpPost]
         public void Post([FromBody] string value)
         {
+            _logger.LogDebug("This is logging implementation");
+
         }
 
         // PUT api/values/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
+            _logger.LogError("This is logging implementation");
+
         }
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            _logger.LogWarning("This is logging implementation");
+
         }
     }
 }
